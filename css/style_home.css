@@ -1,0 +1,124 @@
+body{
+
+    background-color: #19c8faa1;
+    background-image:url(../images/logo.png) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+:root {
+    --main-color: #19c8faa1;
+    --main-color-alt: #1787e0;
+    --main-transition: 0.3s;
+    --main-padding-top: 100px;
+    --main-padding-bottom: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 115%;
+    background-color: rgba(0, 0, 0,50%);
+    z-index: -1;
+}
+.contain{
+    padding: 0 40px ;
+    margin: 0;
+}
+.main-title{
+  position: relative;
+  top: -30px;
+  text-align: center;
+  color: #f7f4f8;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+li{
+
+    list-style-type:none;
+}
+i{
+    font-size: 25px;
+    color: #f7f4f8;
+}
+.testimonials {
+    padding-top: var(--main-padding-top);
+    padding-bottom: var(--main-padding-bottom);
+    position: relative;
+    background-color: var(--section-background);
+  }
+  
+  .testimonials .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 40px;
+  }
+  
+  .testimonials .box {
+    padding: 20px;
+    background-color: #fffffff0 ;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 7%);
+    border-radius: 6px;
+    position: relative;
+    transition: all;
+    transition-duration: 0.4s;
+    box-shadow: 2px 2px 15px 5px black;
+  }
+  .testimonials .box:hover {
+    background-color: #dddddd;
+  }
+  
+  .testimonials .box img {
+    position: absolute;
+    right: -30px;
+    top: -30px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 10px solid var(--section-background);
+  }
+  
+  .testimonials .box h3 {
+    margin: 0 0 10px;
+    color: var(--main-color);
+  }
+  
+  .testimonials .box .title {
+    color: #777;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .testimonials .box .rate .filled {
+    color: #FFC107;
+  }
+  
+  .testimonials .box p {
+    line-height: 1.5;
+    color: #777;
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+  .testimonials .box a{
+    position: relative;
+    top: 5px;
+    text-decoration: none;
+    color: var(--main-color);
+    font-weight:bold ;
+    transition: all;
+    transition-duration: 0.4s;
+  }
+  .testimonials .box a:hover{
+    color: #2c88a3;
+
+  }
+  
